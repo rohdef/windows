@@ -1,0 +1,18 @@
+{
+  "env": {
+    "browser": false,
+    "jasmine": true,
+    "node": true
+  },
+  "globals": {
+    "inject": true
+  },
+  "extends": [
+    "angular",
+    "plugin:jasmine/recommended"
+  ],
+  "plugins": [
+    "angular",
+    "jasmine"
+  ]
+}

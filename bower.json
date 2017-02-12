@@ -1,0 +1,16 @@
+{
+  "name": "login-provider",
+  "description": "The provider backend for BSK",
+  "version": "0.1.0",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-bootstrap": "^2.1.3",
+    "angular-cookies": "^1.5.8",
+    "angular-mocks": "^1.5.8",
+    "angular-resource": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "bootstrap": "3.x.x",
+    "moment": "^2.15.0",
+    "moment-timezone": "^0.5.5"
+  }
+}

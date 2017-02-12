@@ -1,0 +1,325 @@
+/** Proper styles */
+
+.container {
+    margin-top: 2em;
+}
+
+.bordered-box {
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    border: thin #e1e1e1 solid;
+}
+
+.form-horizontal .form-group {
+    margin-right: 0;
+}
+
+.menu-spacing {
+    margin-left: 260px;
+}
+
+.checkbox-spacing {
+    margin-right: 2em;
+}
+
+.img-appearance {
+    width: 15em;
+    height: 10em;
+    margin: 1.4em;
+    margin-bottom: 3em;
+}
+
+.img-appearance div {
+    position: relative;
+}
+
+.img-menu {
+    background: transparent;
+    border: none !important;
+    position: absolute;
+    top: 0.2em;
+    left: 1em;
+    font-size: 1.5em;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+.delete-img {
+  left: 12em;
+}
+
+.glyphicon-remove {
+  color: #c41717; /*#f21414 or #c41717 because it doesn't kill your eyes*/
+  margin-left: 11em;
+}
+
+.glyphicon-arrow-up {
+    color: green;
+    margin-left: -1.8em;
+}
+
+.glyphicon-trash {
+  color: #c41717;
+}
+
+.glyphicon-chevron-left:hover, .glyphicon-chevron-right:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.glyphicon-chevron-down:hover, .glyphicon-chevron-up:hover, .region-name:hover {
+  color: #3b5a9b;
+}
+
+.map-size {
+    -ms-transform: scale(0.7, 0.7);
+    -webkit-transform: scale(0.7, 0.7);
+    transform: scale(0.7, 0.7);
+}
+
+.price-calculator {
+  background: #337ab7;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  color: white;
+}
+
+.price-calculator>h4 {
+  margin-left: 0.95em;
+}
+
+.price-calculator>p {
+  margin-left: 1.2em;
+}
+
+.bookedPicker .picker-day.picker-selected, .picker-day.picker-empty:hover {
+    background: #db6454;
+    color: black;
+}
+
+.picker-navigate, .picker-navigate:hover {
+  color: white;
+  height: 1.5em;
+  font-size: 1.5em;
+}
+
+.picker-navigate {
+  background: #5cb85c;
+}
+
+.picker-navigate:hover {
+  background: #449d44;
+}
+
+/** Improper styles */
+
+/* Import fonts */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
+body {
+    color: #797979;
+    background: #fafdff;
+    font-family: 'Open Sans', sans-serif;
+    font-size:13px;
+}
+
+ul li {
+    list-style: none;
+    padding: 0.3em 0;
+}
+
+/*login page*/
+
+.form-signin {
+    max-width: 330px;
+    margin: 100px auto 0;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.form-signin h2.form-signin-heading {
+    margin: 0;
+    padding:20px 15px;
+    text-align: center;
+    background: #41cac0;
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin input[type="text"], .form-signin input[type="password"] {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #eaeaea;
+    box-shadow: none;
+    font-size: 12px;
+}
+
+.form-signin .btn-login {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0 4px #e56b60;
+    margin-bottom: 20px;
+}
+
+ul.sidebar-menu li {
+    color: #4a4949;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/**
+ Orig
+*/
+
+.form-signin h2.form-signin-heading {
+    background: #fff;
+    color: #4a4949;
+}
+
+.form-signin {
+    opacity: 0.9;
+}
+
+.login-body {
+    background: #DB6458;
+    background-image: url(../IMG_0202_red.png);
+    background-size: cover;
+}
+
+.login-wrap {
+    padding: 0px;
+    height: 260px;
+}
+
+.hover {
+    text-decoration: none;
+}
+
+.form-signin input[type="text"], .form-signin input[type="password"] {
+    width: 100%;
+    margin: 0 auto;
+
+    padding: 25px;
+    font-weight: 100;
+    font-size: 14px;
+    border-radius: 0px;
+
+}
+
+input:-webkit-autofill {
+    background: #fff !important;
+}
+
+.form-signin input[type="text"] {
+    border-bottom: 0px;
+}
+
+.form-signin .btn-login {
+    box-shadow: none;
+    position: relative;
+    bottom: -19px;
+    height: 60px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background: #3FC59D;
+    font-size: 12px;
+    opacity: 1;
+}
+
+.form-signin .btn-login:hover {
+    opacity: 1;
+}
+
+.form-signin {
+    margin-top: 60px;
+    -webkit-align-self: stretch;
+    -webkit-background-clip: border-box;
+    -webkit-background-origin: padding-box;
+    -webkit-background-size: auto;
+    -webkit-box-shadow: rgba(51, 61, 71, 0.0980392) 0px 1px 2px 1px;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: space-between;
+    -webkit-transition-delay: 0s;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-property: all;
+    -webkit-transition-timing-function: ease;
+}
+
+h6.side-title {
+    text-align: center;
+    color: #db6454;
+    padding: 20px 15px 0 15px;
+}
+
+a.logo img{
+    width: 125px !important;
+}
+
+.partnerwrapper {
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.partnerheadline {
+    padding: 0;
+    color: #4a4949;
+}
+
+
+/*sidebar navigation*/
+
+#sidebar {
+    position: fixed;
+    background: none;
+}
+
+#sidebar .sub-menu > .sub li:last-child {
+    padding-bottom: 10px;
+}
+
+ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 2px solid #DB6458;
+    color: #4a4949;
+}
+
+ul.sidebar-menu {
+    padding-left: 0;
+}
+
+.sidebar-menu a {
+    color: #4a4949;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+    background: #f1f7f9;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    border: none;
+}

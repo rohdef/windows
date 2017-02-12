@@ -1,0 +1,20 @@
+{
+  "env": {
+    "browser": true,
+    "node": false,
+    "es6": false
+  },
+  "extends": [
+    "angular"
+  ],
+  "plugins": [
+    "angular"
+  ],
+  "rules": {
+    "angular/di": [
+      "error",
+      "array"
+    ],
+    "angular/di-unused": "error"
+  }
+}

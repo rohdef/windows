@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "angular"
+  ],
+  "rules": {
+    "angular/controller-name": [
+      "error",
+      "/^[A-Z].*Controller$/"
+    ],
+    "angular/di": [
+      "error",
+      "array"
+    ],
+    "angular/controller-as-vm": "error"
+  }
+}
